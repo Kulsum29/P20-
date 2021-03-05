@@ -35,7 +35,7 @@ function draw() {
     //Write condition here to evalute if tom and jerry collide
     drawSprites();
     fill("white")
-    text(World.mouseX+","+World.mouseY,World.mouseX,World.mouseY)
+    //text(World.mouseX+","+World.mouseY,World.mouseX,World.mouseY)
     if(cat.x-mouse.x<cat.width/2+mouse.width/2-130
         && mouse.x-cat.x<=cat.width/2+mouse.width/2-130){
           cat.velocityX=0;
